@@ -8,6 +8,6 @@ namespace OrganismClassification
 {
     public abstract class Class
     {
-        
+        public LinkedList<Order> orders;
     }
 }

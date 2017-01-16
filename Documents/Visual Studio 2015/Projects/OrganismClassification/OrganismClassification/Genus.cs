@@ -8,5 +8,6 @@ namespace OrganismClassification
 {
     public abstract class Genus
     {
+        public LinkedList<Species> species;
     }
 }

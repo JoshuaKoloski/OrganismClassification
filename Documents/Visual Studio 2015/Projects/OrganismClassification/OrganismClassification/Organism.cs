@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace OrganismClassification
 {
-    public abstract class Organism
+    public interface Organism
     {
-        bool alive = true;
-        public abstract int averageYearLifespan();
-        public abstract LinkedList<Organism> getDescendants();
-        public abstract LinkedList<Organism> getAncestors();
-        public abstract String behavior();
+        int averageYearLifespan();
+        LinkedList<Organism> getDescendants();
+        LinkedList<Organism> getAncestors();
+        String behavior();
 
     }
 }

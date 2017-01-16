@@ -8,5 +8,6 @@ namespace OrganismClassification
 {
     public abstract class Family
     {
+        public LinkedList<Genus> genera;
     }
 }
