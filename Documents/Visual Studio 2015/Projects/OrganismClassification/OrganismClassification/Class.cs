@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace OrganismClassification
-{ 
-    public abstract class AnimalKingdom
+{
+    public abstract class Class
     {
-        public LinkedList<Phylum> phylum;
+        
     }
 }
